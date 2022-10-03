@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Votes from "./components/Votes";
 import Counter from "./components/Counter";
+import "./fonts.css";
 
 function App() {
   return (
