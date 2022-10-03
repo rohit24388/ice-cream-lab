@@ -1,8 +1,9 @@
 import React from "react";
-import AdDesigner from "./AdDesigner";
+import AdDesigner from "./components/AdDesigner";
 import "./App.css";
-import Header from "./Header";
-import Votes from "./Votes";
+import Header from "./components/Header";
+import Votes from "./components/Votes";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="row">
         <AdDesigner />
         <Votes />
+        <Counter />
       </div>
       {/* <table>
         <tr>
